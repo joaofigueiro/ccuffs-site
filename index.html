@@ -1,7 +1,92 @@
-<head> 
-	
-<head> 
-<body> 
-	
-<body> 
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8">
+    <link rel="estilo" href="estilo\estilo.css">
+    <link rel="icon" href="imagens\icon_cc.png">
+    <title>Minha página pessoal</title>
+</head>
+
+<body style="background-color:#FFFFFF;">
+    <style>
+        .flex-container {
+          display: flex;
+          justify-content: space-around;
+          justify-content: center;
+          align-items: center;
+          border-radius: 15px;
+          margin: 20px;
+          background-color: #85C3FF;
+        }
+        .flex-container > div {
+          background-color: #223333;
+          margin: 20px;
+          padding: 15px;
+          font-size: 15px;
+          border-radius: 15px;
+          justify-content: center;
+          display: center;
+        }
+        .flex-cabeca {
+          display: flex;
+          justify-content: space-around;
+          justify-content: center;
+          align-items: center;
+          border-radius: 15px;
+          margin: 20px;
+          background-color: #85C3FF;
+        }
+        #mostrar{
+        display: none;
+        }
+        #passar_mouse:hover #mostrar{
+         display: block;
+         margin: 20px;
+  }
+    </style>   
+        <div class="flex-cabeca">   
+            <h2 style="color:#EEEEEE" style="font-family:courier;">Opa! Me chamo João Leonardo, Seja Bem-Vindo (a) ao meu site</h2>
+        </div>   
+        <div class="flex-container" > 
+            <div align="center" id="passar_mouse"> 
+                <h2 style="color:#EEEEEE">Academia</h2>
+                <img src="imagens\haltere.png" alt="Ícone de um haltere“ width="200" height="200">
+                <div>
+                    <p id="mostrar" style="color:#FFFFFF" padding: 15px;>Eu gosto muito de treinar! Atualmente, esta é uma das minhas grandes válvulas de escape. Além de me ajudar psicologicamente, em função de passar o dia todo na frente do computador, ir para academia também fortalece minha dorsal, já que fico o dia todo em uma cadeira.
+                        Mas acima de tudo, ser mais forte aumenta minha autoestima e me possibilita se mais útil para ajudar e proteger quem eu amo.</p>
+                </div>
+            </div>
+            <div align="center" id="passar_mouse"> 
+                <div>
+                    <h2 style="color:#EEEEEE">Banco de Dados</h2>
+                    <img src="imagens\database.png" alt="Ícone de um banco de dados“ width="192" height="192">
+                    <p style="color:#FFFFFF" id="mostrar">Em 2021 comecei a trabalhar em uma empresa de ERP e desde então tenho utilizado e dado manutenção em  banco dados, sendo SQL minha ferramenta diária. Esse contato diário tem me feito gostar muito desse viés da Tecnologia.  
+                    </p>
+                </div>
+            </div>    
+            <div align="center" id="passar_mouse"> 
+                <div>
+                    <h2 style="color:#EEEEEE">Pescaria</h2>
+                    <img src="imagens\fish.png" alt="Ícone de um peixe“ width="192" height="192">
+                    <p style="color:#FFFFFF" id="mostrar">Eu adoro pescar desde pequeno. Meu pai me ensinou a pescar, me levou a vários rios, pesque-pagues, sangas, e açudes, onde pescamos diversas espécies de peixes e de variados tamanhos. Apesar de que tem algum tempo que já não pesco mais, é algo que nunca vou deixar de gostar. </p>
+                </div> 
+            </div>   
+        </div>
+    <footer> 
+        <p align="center">Você pode entrar em contato comigo através destes meios:</p>
+        <div align="center" >
+            <a href="https://github.com/joaofigueiro" target="_blank"> <img src="imagens\github.png" alt="Github"  width="35" height="35"></a>
+            <a href="https://www.instagram.com/joaoleo.onardo/" target="_blank"> <img src="imagens\insta.png" alt="Instagram" width="35" height="35"></a>   
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-figueir%C3%B3/" target="_blank"><img src="imagens\linkedin.png" alt="Linkedin"  width="35" height="35"></a>   
+            <a href="https://twitter.com/Jao_leoonardo" target="_blank"> <img src="imagens\twitter.png" alt="twitter"  width="35" height="35"></a>   
+        </div>    
+        <div align="center" >
+            <p>joao.l.comiran@gmail.com</p>
+            <p>(49) 99118-7164</p>   
+        </div>
+    </footer>
+
+</body>
+
+</html>
